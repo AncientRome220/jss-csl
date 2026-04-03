@@ -1,8 +1,21 @@
 # Juris-Mで社会学評論
 
 [jss-lewis-sato.csl](https://github.com/keisato0/jss-csl/blob/master/jss-lewis-sato.csl)
+[jss-history.csl](https://github.com/keisato0/jss-csl/blob/master/jss-history.csl)
 
 『社会学評論』スタイルガイドに沿った引用・文献一覧の出力を可能にするCSL(正確にはCSL-M)ファイルです。
+
+また、歴史学向けの日本語文献スタイル `jss-history.csl` を追加しました。日本語文献の文献一覧では次の形式で出力します。
+
+- 雑誌論文：著者、出版年「タイトル」『雑誌名』巻数、ページ数。
+- 本：著者、出版年『タイトル』出版社。
+
+## このリポジトリについて
+
+- このリポジトリは以下のフォーク元をベースにしています。  
+  https://github.com/keisato0/jss-csl
+- 今回の作成者は藤本俊哉です。
+- 本リポジトリに含まれるすべての誤りは、藤本俊哉に帰属します。
 
 
 
@@ -100,4 +113,3 @@ ZoteroやJuris-Mが威力を発揮するのはワープロソフトと連携し�
 ## 課題 <a name="todo"></a>
 
 - 文献を列挙したときに自動的に著者名や出版年に沿った並べ替えはできません。が，この点，「社会学評論スタイルガイド」でも明確な基準は設けられていないので，このままでもいいかなという感じです。
-
